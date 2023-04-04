@@ -57,3 +57,14 @@ const whatToDo = (day) => {
   }
 };
 whatToDo("Friday");
+
+//////////////////////////////////////////////////
+
+console.log("#5");
+
+let shoppingList = ["milk", "chocolate"];
+const addFood = (food) => {
+  shoppingList.push(food);
+  console.log(shoppingList);
+};
+addFood("apple");
